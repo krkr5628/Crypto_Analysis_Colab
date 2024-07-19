@@ -5,4 +5,5 @@
 
 # 분석(SMALL VERSION)
 - Colab TPU : MAX 2H 20M
+  
 ![image](https://github.com/user-attachments/assets/5811cc69-94ba-4ecf-b958-ba65aefea6ed)
