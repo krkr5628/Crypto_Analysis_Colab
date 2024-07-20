@@ -12,3 +12,6 @@
 # 분석(FULL VERSION)
 - DATA : 1/1 SIZE
 - Colab TPU : MAX 
+
+#지표
+![image](https://github.com/user-attachments/assets/4f39bf82-eb18-487a-8b38-c6b28ed25850)
