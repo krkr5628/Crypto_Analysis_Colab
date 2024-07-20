@@ -7,7 +7,7 @@
 - DATA : 1/3 SIZE
 - Colab TPU : MAX 2H 20M
   
-![image](https://github.com/user-attachments/assets/5811cc69-94ba-4ecf-b958-ba65aefea6ed)
+![image](https://github.com/user-attachments/assets/172d22bd-8f66-44cb-a38b-6ed3f9a49687)
 
 **# 분석(FULL VERSION)**
 - DATA : 1/1 SIZE
