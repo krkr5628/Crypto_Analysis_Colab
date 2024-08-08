@@ -48,7 +48,8 @@
 - 5, 6, 7 개월 데이터를 묶고 각 지점에서 예측 테스트 
 
 2. 기간 테스트 결과
-![image](https://github.com/user-attachments/assets/88968149-4c5e-452f-b29d-07ec20e2dc9f)
+![image](https://github.com/user-attachments/assets/88968149-4c5e-452f-b29d-07ec20e2dc9f
+
 ![image](https://github.com/user-attachments/assets/0685530a-a426-414c-8390-6784c018322c)
 
 3. 기간 테스트 분석
@@ -64,18 +65,19 @@
 
 2. 테스트 결과1(단순 1.1% 이상 발생 시간대 분석)
 ![image](https://github.com/user-attachments/assets/c7a3e31d-c7f0-4778-b769-da1afa986504)
+
 ![image](https://github.com/user-attachments/assets/70d7cb67-a0f1-44f5-b6cb-1d97b8331187)
 
-3. 테스트 결과2(단순 1.1% 이상 발생하는 요일 비중
+4. 테스트 결과2(단순 1.1% 이상 발생하는 요일 비중
 ![image](https://github.com/user-attachments/assets/c8c67305-3394-41d0-b09a-507e6ac9bf40)
 
-4. 테스트 결과3(단순 1.1% 이상 발생하는 최대 하락)
+5. 테스트 결과3(단순 1.1% 이상 발생하는 최대 하락)
 ![image](https://github.com/user-attachments/assets/57fdfa98-7c50-46aa-9331-49fce321c882)
 
-5. 테스트 결과4(Transformer_v3 모델 예측 결과에 대해, 30분 간격으로, 예측 성공 비중)
+6. 테스트 결과4(Transformer_v3 모델 예측 결과에 대해, 30분 간격으로, 예측 성공 비중)
 ![image](https://github.com/user-attachments/assets/ca898980-27a8-4d99-a5da-0d1f5b84ad09)
 
-6. 테스트 결과 분석
+7. 테스트 결과 분석
 - 전체적으로 시간대별 50% 이상과 같은 높은 확률 구간은 존재하지 않으나 시간대 존재
 - 1.1% 이상 발생 확률 높은 구간이 하락률 낮음
 - 영업일이 확률 높음
