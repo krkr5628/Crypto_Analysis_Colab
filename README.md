@@ -17,13 +17,13 @@
 - 전략 지표 파악
 
 2. 테스트 모델
-a) TCN(단일 학습)
-b) Transformer(추가 학습)
+- TCN(단일 학습)
+- Transformer(추가 학습)
 
 3. 테스트 도구
-a) Colab TPU
-b) Kaggle TPU
-c) ChatGPT 4o
+- Colab TPU
+- Kaggle TPU
+- ChatGPT 4o
 
 **# 기본 태스트 결과**
 ![image](https://github.com/user-attachments/assets/5ce58ace-419f-4447-8d00-27b9ee45bf05)
