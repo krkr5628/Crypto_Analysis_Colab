@@ -1,4 +1,4 @@
-**# 설명**
+**# 요**
 - 최종 학습 모델 : TCN, TRANSFORMER
 - 최대 RAM 24GB 이하 구동하도록 모델 축약 필요(지표 분석 xgboost 제외)
 - 예측을 위해 5 ~ 6개월 데이터 필요
@@ -49,6 +49,7 @@
 
 2. 기간 테스트 결과
 ![image](https://github.com/user-attachments/assets/88968149-4c5e-452f-b29d-07ec20e2dc9f)
+![image](https://github.com/user-attachments/assets/0685530a-a426-414c-8390-6784c018322c)
 
 3. 기간 테스트 분석
 - 5 ~ 6개월 데이터 필요
