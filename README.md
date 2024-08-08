@@ -41,7 +41,7 @@
 - 지표가 복합하여 메모리 소모 심함(TPU 4년 치 시계열 학습 시 300GB 소모)
 
 
-**# 기 태스트**
+**# 기간 태스트**
 1. 학습 과정
 - SOL 1분 봉 데이터 수집의 1/3, 2/3, 3/3을 테스트
 - SOL 1분 봉 데이터 추가 수집의 1/12, 1/6, 1/4, 1/2, 1/1을 테스트
@@ -55,10 +55,28 @@
 - xgboost를 통한 관계성 높은 항목 20개 선택 모델에 대하여 => 성능 하락으로 다른 방법 필요 => TCN_v5 버전
 
 
-**# 분석(FULL VERSION)**
-- DATA : 1/1 SIZE
-- Colab TPU : MAX 
+**# 시간대 테스트**
+1. 테스트 과정
+- 날짜를 제거하고 시간만 활용하여 묶음
+- 시간별 1.1% 이상 상승 하는 구간을 시각화
+- 시각화 기반 1.1% 이상 상승하는 확률이 높은 구간을 선택
 
-**#지표**
+2. 테스트 결과1(단순 1.1% 이상 발생 시간대 분석)
+![image](https://github.com/user-attachments/assets/c7a3e31d-c7f0-4778-b769-da1afa986504)
+![image](https://github.com/user-attachments/assets/70d7cb67-a0f1-44f5-b6cb-1d97b8331187)
 
-![image](https://github.com/user-attachments/assets/4f39bf82-eb18-487a-8b38-c6b28ed25850)
+3. 테스트 결과2(단순 1.1% 이상 발생하는 요일 비중
+![image](https://github.com/user-attachments/assets/c8c67305-3394-41d0-b09a-507e6ac9bf40)
+
+4. 테스트 결과3(단순 1.1% 이상 발생하는 최대 하락)
+![image](https://github.com/user-attachments/assets/57fdfa98-7c50-46aa-9331-49fce321c882)
+
+5. 테스트 결과4(Transformer_v3 모델 예측 결과에 대해, 30분 간격으로, 예측 성공 비중)
+![image](https://github.com/user-attachments/assets/ca898980-27a8-4d99-a5da-0d1f5b84ad09)
+
+6. 테스트 결과 분석
+- 전체적으로 시간대별 50% 이상과 같은 높은 확률 구간은 존재하지 않으나 시간대 존재
+- 1.1% 이상 발생 확률 높은 구간이 하락률 낮음
+- 영업일이 확률 높음
+- 1.1% 이상이 많이 발생하는 구간과 모델의 예측 확률이 높은 시간은 크게 상관없음.
+- 오히려 1.1% 이상이 적게 발생하는 구간이 확률적으로 높음
