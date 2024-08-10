@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/27770cbe-58ce-47b7-bada-575a307dd637)**# 요약**
+**# 요약**
 - 최종 학습 모델 : TCN, TRANSFORMER
 - 최대 RAM 24GB 이하 구동하도록 모델 축약 필요(지표 분석 xgboost 제외)
 - 예측을 위해 5 ~ 6개월 데이터 필요
@@ -107,6 +107,7 @@
 - 3분 봉 기준 30봉 이내에 0.9%, 1.3%, 1.5% 및 1개월 ~ 3개월 확률 높음(67% 이상)
 
 5. 결과분석2
+
 - 확률 80이상
 ![image](https://github.com/user-attachments/assets/1b9e4d4b-fb0c-42cd-a9f3-3f6faec42efb)
 
